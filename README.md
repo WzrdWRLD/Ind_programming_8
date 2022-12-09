@@ -1,1 +1,5 @@
-# Ind_programming_8
+# Dossanov Adil, IS-402
+LAB_8
+
+![Screenshot](Screenshot.png)
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="218.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication.FXMLDocumentController">
+    <children>
+      <Button fx:id="button_Math" layoutX="54.0" layoutY="151.0" mnemonicParsing="false" onAction="#buttonMathAction" prefHeight="26.0" prefWidth="149.0" text="Решить" />
+      <Button fx:id="button_Clear" layoutX="257.0" layoutY="151.0" mnemonicParsing="false" onAction="#buttonClearAction" prefHeight="26.0" prefWidth="149.0" text="Очистить" />
+      <Button fx:id="button_Exit" layoutX="460.0" layoutY="151.0" mnemonicParsing="false" onAction="#buttonExitAction" prefHeight="26.0" prefWidth="150.0" text="Выход" />
+      <Label fx:id="label_a" layoutX="22.0" layoutY="27.0" text="A =" />
+      <Label fx:id="label_b" layoutX="22.0" layoutY="71.0" text="B =" />
+      <Label fx:id="label_x" layoutX="22.0" layoutY="115.0" text="X =" />
+      <Label fx:id="label_otvet" layoutX="14.0" layoutY="184.0" prefHeight="18.0" prefWidth="614.0" text="Ответ:" />
+      <TextField fx:id="textField_A" layoutX="54.0" layoutY="23.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="textField_B" layoutX="54.0" layoutY="67.0" prefHeight="26.0" prefWidth="150.0" />
+      <TextField fx:id="textField_X" layoutX="54.0" layoutY="111.0" prefHeight="26.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="387.0" layoutX="224.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/imag.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
